@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer{
+    background-color: rgb(51, 117, 255);
+    height: 50px;
+    width: 100vw;   
+    box-shadow: 5px 0 10px rgba(0,0,0,.6);
+}
+
+.footer_items{
+text-align: center;
+padding-top: 10px;
+color: #fff;
+}
+
+.footer_items a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_items a:hover, li.active{
+    background-color: rgba(9, 83, 243, 0.3);
+    transition: .2s;   
+}
+
